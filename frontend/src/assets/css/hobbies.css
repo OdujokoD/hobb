@@ -1,0 +1,193 @@
+.top-left {
+  height: 48px;
+  background-color: #859db3;
+  /* background-image: linear-gradient(180deg, #6f7986, #9cb8cf); */
+}
+.bottom-right .card {
+  margin: 15px -8px 0;
+}
+.header-title {
+  display: block;
+  margin-top: 15px;
+  font-weight: 600;
+  color: white;
+}
+.side-icon{
+    display: none;
+}
+.header-logout {
+  position: absolute;
+  right: 0;
+  top: 15px;
+  color: white;
+  padding-right: 10px;
+}
+.header-logout i{
+    font-size: 0.9em;
+}
+.card {
+  height: 50px;
+  margin: 0;
+}
+
+.card .hobb-alpha {
+  width: 50px;
+  height: 100%;
+  color: #fcfcfc;
+  text-align: center;
+}
+.hobb-alpha h5 {
+  width: 100%;
+  margin-left: auto;
+}
+.card-content {
+  padding: 5px 10px;
+}
+.card-content .hobby {
+  font-size: 0.9em;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #737575;
+}
+.card-content .date {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 60px;
+  margin-bottom: 5px;
+  font-size: 0.85em;
+  color: #929292;
+  font-weight: 300;
+}
+.card-content .action {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 5px;
+}
+.action span {
+  margin-right: 10px;
+  font-size: 0.7em;
+  color: #3d3d3d;
+}
+.new-hobby {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #f3f3f3;
+  height: 40px;
+  z-index: 999;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.new-hobby input[type="text"], .new-hobby input[type="text"]:active, .new-hobby input[type="text"]:focus {
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+.new-hobby button {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  /* background-color: #859db3; */
+  background: linear-gradient(to right, #F58162, #E07458);
+  border-radius: 50px;
+  position: fixed;
+  right: 0;
+  margin-right: 10px;
+}
+
+.new-hobby button i {
+  font-size: 0.95em;
+}
+
+.empty{
+    margin-top: 25vh;
+    text-align: center;
+}
+
+.empty .icon i{
+    font-size: 7em;
+    color: #45627c;
+}
+
+.empty h4{
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #45627c;
+}
+
+/*========================= media query =============================== */
+@media only screen and (min-width: 768px) {
+    .top-left {
+        height: 100vh;
+        background: linear-gradient(to right, #F58162, #E07458);
+      }
+
+      .bottom-right .card {
+        margin: 50px -8px 0;
+      }
+
+      .header-title {
+        display: block;
+        margin-top: 25vh;
+        font-size: 3em;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      .header-logout {
+        color: #6f7986;
+      }
+      .new-hobby {
+        left: 33.33%;
+      }
+      .side-icon{
+        display: block;
+        color: white;
+        font-size: 13em;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .new-hobby {
+        left: 41.66%;
+      }
+}
+
+/*========================= gradient =============================== */
+.grad-1 {
+  background: linear-gradient(to right, #eb3349, #f45c43);
+}
+
+.grad-2 {
+  background: linear-gradient(to right, #b24592, #f15f79);
+}
+
+.grad-3 {
+  background: linear-gradient(to right, #d66d75, #e29587);
+}
+
+.grad-4 {
+  background: linear-gradient(to right, #ff9966, #ff5e62);
+}
+
+.grad-5 {
+  background: linear-gradient(to right, #56ccf2, #2f80ed);
+}
+
+.grad-6 {
+  background: linear-gradient(to right, #4568DC, #B06AB3);
+}
+
+.grad-7 {
+  background: linear-gradient(to right, #614385, #516395);
+}
+
+.grad-8 {
+  background: linear-gradient(to right, #1d976c, #93f9b9);
+}
